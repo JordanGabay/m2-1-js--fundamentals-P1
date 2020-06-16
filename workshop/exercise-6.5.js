@@ -9,3 +9,12 @@
 // ...
 
 // many other possibilities here.
+
+
+for (let x = 0; x < 16; x++) {
+    let type = 'odd';
+    if (x % 2 === 0) {
+      type = 'even';
+    }
+    console.log(`${x} is ${type}`);
+    }
